@@ -1,0 +1,16 @@
+[
+	{
+		"validFrom":"2017-06-24",
+		"validTo":"2017-07-2",
+		"conditionalProducts":{"Shirt":2},
+		"targetProduct": "Tie",
+		"percentage": 50.0
+	},
+	{
+		"validFrom":"2016-01-01",
+		"validTo":"2019-01-01",
+		"conditionalProducts":{},
+		"targetProduct": "Trousers",
+		"percentage": 10.0
+	}	
+]
