@@ -89,7 +89,7 @@ public class Costing {
 		if(!_unavilableProducts.isEmpty()) {
 			sb.append("\nThe following items were unavilable:\n");
 			_unavilableProducts.entrySet().forEach(unavailable -> {
-				sb.append(unavailable.getKey() + " x" + unavailable.getValue());
+				sb.append(unavailable.getKey() + " x" + unavailable.getValue() + "\n");
 			});
 		}
 		return sb.toString();
